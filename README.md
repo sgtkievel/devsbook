@@ -1,3 +1,5 @@
+Colaborador: João Leandro Kievel
+email: jlksapoverde@gmail.com
 ## Instalação
 Você pode clonar este repositório OU baixar o .zip
 
