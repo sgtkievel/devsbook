@@ -1,0 +1,18 @@
+[11-May-2020 04:10:20 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:10:20 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:15:49 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:15:49 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:15:51 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:15:51 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:17:59 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:17:59 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:18:01 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:18:01 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:26:49 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:26:49 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:31:02 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:31:02 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:31:04 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 04:31:04 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/portalma/public_html/devsbook/public/index.php on line 3
+[11-May-2020 08:31:30 UTC] PHP Parse error:  syntax error, unexpected ''LoginController@signinAction'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/portalma/public_html/devsbook/src/routes.php on line 8
+[11-May-2020 08:31:33 UTC] PHP Parse error:  syntax error, unexpected ''LoginController@signinAction'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/portalma/public_html/devsbook/src/routes.php on line 8
