@@ -6,7 +6,7 @@
             <file>file:/C:/laragon/www/mvc-devsbook/src/controllers/LoginController.php</file>
             <file>file:/C:/laragon/www/mvc-devsbook/src/views/pages/login.php</file>
             <file>file:/C:/laragon/www/mvc-devsbook/public/assets/css/login.css</file>
-            <file>file:/C:/laragon/www/mvc-devsbook/src/handlers/LoginHandler.php</file>
+            <file>file:/C:/laragon/www/mvc-devsbook/src/handlers/UserHandler.php</file>
         </group>
     </open-files>
 </project-private>
