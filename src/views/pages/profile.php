@@ -7,14 +7,14 @@
             <div class="row">
                 <div class="box flex-1 border-top-flat">
                     <div class="box-body">
-                        <div class="profile-cover" style="background-image: url('media/covers/cover.jpg');"></div>
+                        <div class="profile-cover" style="background-image: url('<?=$base;?>/media/covers/<?=$user->cover;?>');"></div>
                         <div class="profile-info m-20 row">
                             <div class="profile-info-avatar">
-                                <img src="media/avatars/avatar.jpg" />
+                                <img src="<?=$base;?>/media/avatars/<?=$user->avatar;?>" />
                             </div>
                             <div class="profile-info-name">
-                                <div class="profile-info-name-text">Bonieky Lacerda</div>
-                                <div class="profile-info-location">Campina Grande</div>
+                                <div class="profile-info-name-text"><?=$user->name;?></div>
+                                <div class="profile-info-location"><?=$user->city;?></div>
                             </div>
                             <div class="profile-info-data row">
                                 <div class="profile-info-item m-width-20">
@@ -43,20 +43,21 @@
                         <div class="box-body">
                             
                             <div class="user-info-mini">
-                                <img src="assets/images/calendar.png" />
+                                <img src="<?=$base;?>/assets/images/calendar.png" />
                                 01/01/1930 (90 anos)
                             </div>
-
+                            <?php if(!empty($user->city)): ?>
                             <div class="user-info-mini">
-                                <img src="assets/images/pin.png" />
-                                Campina Grande, Brasil
+                                <img src="<?=$base;?>/assets/images/pin.png" />
+                                <?=$user->city;?>
                             </div>
-
+                            <?php endif; ?> 
+                            <?php if(!empty($user->work)): ?>          
                             <div class="user-info-mini">
-                                <img src="assets/images/work.png" />
-                                B7Web
+                                <img src="<?=$base;?>assets/images/work.png" />
+                                <?=$user->work;?>
                             </div>
-
+                            <?php endif; ?>        
                         </div>
                     </div>
 
@@ -75,7 +76,7 @@
                             <div class="friend-icon">
                                 <a href="">
                                     <div class="friend-icon-avatar">
-                                        <img src="media/avatars/avatar.jpg" />
+                                        <img src="<?=$base;?>/media/avatars/<?=$user->avatar;?>" />
                                     </div>
                                     <div class="friend-icon-name">
                                         Bonieky
