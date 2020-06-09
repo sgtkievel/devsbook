@@ -12,7 +12,7 @@
                                                 echo 'fez um post';
                                             break;
                                             case 'photo':
-                                                echo 'postu uma foto';
+                                                echo 'postou uma foto';
                                             break;
                                         }
                                     ?></span>
