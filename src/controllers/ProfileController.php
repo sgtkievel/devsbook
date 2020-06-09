@@ -55,6 +55,19 @@ class ProfileController extends Controller {
         ]);
     }
 
-    
+    // Criando o direcinamento para o follow
+    public function follow($atts){
+        $to = intval($atts['id']);
+        if(UserHandler::idExists($to)){
+            if(UserHandler::isFollowing($this->loggedUser->id, $to)){
+                // deixar de seguir
+                UserHandler::unfollow($this->loggedUser->id, $to);
+            }else{
+                // seguir
+                UserHandler::follow($this->loggedUser->id, $to);
+            }
+        }
+        $this->redirect('/perfil/'.$to);
+    }
 
 }
